@@ -45,10 +45,9 @@ const index = () => {
           <UL align="left">
             <div className="logo">
               <img src={icons.opensealogo} alt="opensea" />
-              <H3 
+              <H3
                 style={{
                   color: navbar ? "#000000" : "#ffffff",
-                
                 }}
               >
                 OpenSea
@@ -97,9 +96,15 @@ const index = () => {
           </UL>
           <div className="logo del">
             <img src={icons.opensealogo} alt="opensea" />
-            <H2 className="h2" fontSize="1.7rem">OpenSea</H2>
+            <H2 className="h2" fontSize="1.7rem">
+              OpenSea
+            </H2>
           </div>
-          <MobileBox className="">
+          {/* <IconButton className="hamburger" onClick={() => setMenu(!menu)}>
+            <img src={icons.menu} alt="" width={""} height={""} />
+          </IconButton> */}
+         
+          <MobileBox className="hamburger">
             <Box style={{ padding: "10px" }} active={navbar}>
               <Wallet
                 size={28}

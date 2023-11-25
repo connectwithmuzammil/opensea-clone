@@ -37,6 +37,8 @@ export const Sec = styled(Section)`
   }
 `;
 export const Nav = styled.nav`
+  
+
   padding-block: 1vw;
   /* padding-inline: 1.5vw; */
   position: fixed;
@@ -85,6 +87,8 @@ export const Nav = styled.nav`
 
   @media only screen and (min-width: ${tablet}) {
     padding-inline: 6vw;
+    /* margin-top: 1rem; */
+    /* background-color: red; */
     .del {
       display: flex;
     }
@@ -158,7 +162,7 @@ export const UL = styled.ul`
   }
 `;
 export const MobileBox = styled.div`
-  padding-block: 1rem;
+
   display: flex;
   gap: 20px;
 `;
